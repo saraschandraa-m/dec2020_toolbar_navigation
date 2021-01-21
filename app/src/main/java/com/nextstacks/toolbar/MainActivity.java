@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.action_search:
-                Toast.makeText(MainActivity.this, "Search Icon is clicked", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(MainActivity.this, TabActivity.class));
                 break;
 
             case R.id.action_move:
